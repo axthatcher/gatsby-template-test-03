@@ -18,7 +18,7 @@ const Header = props => (
       </div>
     </div>
     <nav>
-      <ul>
+     <ul>
         <li>
           <a
             href="javascript:;"
@@ -46,10 +46,9 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Acerca de
+            ShinyApp Demo
           </a>
         </li>
-        
       </ul>
     </nav>
   </header>

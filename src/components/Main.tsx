@@ -7,6 +7,7 @@ import { RiTwitterFill } from '@react-icons/all-files/ri/RiTwitterFill'
 import { RiInstagramFill } from '@react-icons/all-files/ri/RiInstagramFill'
 import { RiGithubFill } from '@react-icons/all-files/ri/RiGithubFill'
 import { RiYoutubeFill } from '@react-icons/all-files/ri/RiYoutubeFill'
+import ShinyAppEmbed from '../components/ShinyAppEmbed'
 
 const Main = props => {
   const close = (
@@ -61,22 +62,17 @@ const Main = props => {
         {close}
       </article>
 
+    
+      
       <article
         id="about"
         className={`${props.article === 'about' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
 
-          <h2 className="major">Acerca De</h2>
+          <h2 className="major">ShinyApp</h2>
+            <ShinyAppEmbed></ShinyAppEmbed>
 
-        <span className="image main">
-
-            <StaticImage formats={['auto', 'webp']} src="../../static/assets/pic03.jpg" alt="About" />
-
-        </span>
-        <p>
-          Me gustan los gatos, especialmente los que tienen sombreros.
-        </p>
         {close}
       </article>
 
