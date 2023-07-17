@@ -9,11 +9,11 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension V4</h1>
+        <h1>Gatos Con Sombreros</h1>
         <p>
-          A fully responsive site template designed by <a href="https://donboulton.com">Don Boulton</a> and released
+          Mira estos gatos
           <br />
-          for free under a <a href="https://donboulton.com/privacy">BSD</a> license.
+          ¡Que adorable!
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Los Gatos
           </a>
         </li>
         <li>
@@ -36,7 +36,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            No hay gatos aquí
           </a>
         </li>
         <li>
@@ -46,19 +46,10 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Acerca de
           </a>
         </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </a>
-        </li>
+        
       </ul>
     </nav>
   </header>

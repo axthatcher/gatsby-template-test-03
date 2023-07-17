@@ -8,7 +8,7 @@ import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
   let content
-
+  
   if (location && location.pathname === '/') {
     content = <div>{children}</div>
   } else {
@@ -35,8 +35,8 @@ const Layout = ({ children, location }) => {
           <Script
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Donald Boulton Personal Web Site' },
-              { name: 'keywords', content: 'Donald Boulton, personal' },
+              { name: 'description', content: 'Gatos con sombreros' },
+              { name: 'keywords', content: 'Gatos con muchos sombreros' },
             ]}
           >
             <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
@@ -63,7 +63,7 @@ const Layout = ({ children, location }) => {
               textShadow: '2px 2px black',
             }}
           >
-            Don Boulton uses cookies for a better user experience.{' '}
+            Gatos Con Sombreros uses cookies for a better user experience.{' '}
             <span
               style={{
                 fontSize: '14px',
